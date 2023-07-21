@@ -22,15 +22,22 @@ function cb_remove_smileys($bool)
 }
 add_filter('option_use_smilies', 'cb_remove_smileys', 99, 1);
 
-# ------------------------------------------
+# overriding height/width attributes for featured images
+function remove_thumbnail_dimensions( $html ) {
+    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+    return $html;
+}
+add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
+add_filter( 'image_send_to_editor', 'remove_thumbnail_dimensions', 10 );
+
 # REGISTER SITE MENUS
-# ------------------------------------------
 function register_custom_menu()
 {
     register_nav_menu('primary', 'Primary Menu');
 }
 add_action('after_setup_theme', 'register_custom_menu');
 
+add_theme_support( 'post-thumbnails' );
 
 if (function_exists('add_theme_support')) {
     register_nav_menus(
