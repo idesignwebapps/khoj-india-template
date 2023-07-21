@@ -89,44 +89,6 @@ body {
     font-family: var(--ff-primary);
 }
 
-/* HOMEPAGE UNDER WORKS STARTS */
-
-#home {
-    text-align: center;
-    margin-top: 15em;
-}
-
-#home h2 {
-    color: var(--light-yellow);
-}
-
-#home p {
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-#home a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: var(--white);
-    cursor: pointer;
-    color: var(--accent);
-    font-size: 1.4rem;
-    font-weight: 700;
-    border-radius: 50px;
-    padding: 0.6rem 1.5rem;
-    margin-top: 1rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    transition: all 300ms;
-}
-
-#home a:hover {
-    background-color: var(--accent);
-    color: var(--yellow);
-}
-
-/* HOMEPAGE UNDER WORKS ENDS */
-
 header {
     padding-block: 1em;
     background: var(--accent);

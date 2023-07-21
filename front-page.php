@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 
-<!-- content START -->
-<main id="home">
+<main>
 	<?php the_content(); ?>
 </main>
-</body>
 
 <?php get_footer(); ?>
