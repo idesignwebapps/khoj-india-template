@@ -78,6 +78,15 @@ table {
 
     --ff-primary: "Overpass", sans-serif;
     --ff-accent: "League Gothic", sans-serif;
+
+    --background-border-position-mobile: top 0 left -4.5em, bottom 0 left -3.25em,
+        top 0 right -3.25em, bottom 0 right -4.5em;
+    --background-border-position-30em: top 0 left -4em, bottom 0 left -6.5em,
+        top 0 right -6.5em, bottom 0 right -4em;
+    --background-border-position-60em: top 0 left -13em, bottom 0 left -9em,
+        top 0 right -9em, bottom 0 right -13em;
+    --background-border-position-100em: top 0 left -14em, bottom 0 left -9em,
+        top 0 right -9em, bottom 0 right -14em;
 }
 
 *, *::before, *::after {
@@ -311,8 +320,15 @@ main section.locations-container {
         url(./images/location-border.svg), url(./images/location-border.svg);
     background-repeat: repeat-y;
     background-size: 50%;
-    background-position: top 0 left -4.5em, bottom 0 left -3.25em,
-        top 0 right -3.25em, bottom 0 right -4.5em;
+    background-position: var(--background-border-position-mobile);
+}
+
+main section.category.natural-landscapes {
+    background-image: url(./images/natural-border.svg), url(./images/natural-border.svg),
+        url(./images/natural-border.svg), url(./images/natural-border.svg);
+    background-repeat: repeat-y;
+    background-size: 50%;
+    background-position: var(--background-border-position-mobile);
 }
 
 main section.locations-container, main section.category {
@@ -654,9 +670,8 @@ footer p>a:hover {
 
 @media screen and (min-width: 30em) {
 
-    main section.locations-container {
-        background-position: top 0 left -4em, bottom 0 left -6.5em,
-            top 0 right -6.5em, bottom 0 right -4em;
+    main section.locations-container, main section.category.natural-landscapes {
+        background-position: var(--background-border-position-30em);
     }
 
     footer section {
@@ -805,8 +820,11 @@ footer p>a:hover {
     main section.locations-container, main section.category {
         min-height: 0;
         padding: 3rem 0 1rem 0;
-        background-position: top 0 left -13em, bottom 0 left -9em,
-            top 0 right -9em, bottom 0 right -13em;
+        background-position: var(--background-border-position-60em);
+    }
+
+    main section.category.natural-landscapes {
+        background-position: var(--background-border-position-60em);
     }
 
     main section.locations-container h2, main section.category h2 {
@@ -934,9 +952,8 @@ footer p>a:hover {
 
 @media screen and (min-width: 100em) {
 
-    main section.locations-container, main section.category {
-        background-position: top 0 left -14em, bottom 0 left -9em,
-            top 0 right -9em, bottom 0 right -14em;
+    main section.locations-container, main section.category.natural-landscapes {
+        background-position: var(--background-border-position-100em);
     }
 
     main section.locations-container h2, main section.category h2 {
