@@ -6,7 +6,7 @@ Template Post Type: page
 ?>
 
 <?php
-$args = array('cat' => 4);
+$args = array('category_name' => 'natural-landscapes');
 $the_query = new WP_Query($args);
 ?>
 
