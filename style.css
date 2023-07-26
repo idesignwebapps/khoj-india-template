@@ -2,7 +2,7 @@
 Theme Name: Khoj India 2023
 Theme URI: https://www.linkedin.com/in/aditya-jain26
 Description: Theme Created for Khoj Website
-Version: 1.3.0
+Version: 1.3.1
 Author: Adi Jain
 Author URI: https://www.linkedin.com/in/aditya-jain26
 */
@@ -69,24 +69,15 @@ table {
 :root {
     --yellow: #ffc500;
     --light-yellow: #ffd02e;
-    --accent: #5c21b5;
-    --dark-pink: #d42487;
-    --light-pink: #e43397;
+    --accent: #3c1675;
+    --dark-pink: #ae1e70;
+    --light-pink: #c92c85;
     --white: #ffffff;
     --black: #000000;
     --dark-gray: #222c2a;
 
     --ff-primary: "Overpass", sans-serif;
     --ff-accent: "League Gothic", sans-serif;
-
-    --background-border-position-mobile: top 0 left -8em, bottom 0 left -4.25em,
-        top 0 right -4.25em, bottom 0 right -8em;
-    --background-border-position-30em: top 0 left -4em, bottom 0 left -6.5em,
-        top 0 right -6.5em, bottom 0 right -4em;
-    --background-border-position-60em: top 0 left -13em, bottom 0 left -9em,
-        top 0 right -9em, bottom 0 right -13em;
-    --background-border-position-100em: top 0 left -14em, bottom 0 left -9em,
-        top 0 right -9em, bottom 0 right -14em;
 }
 
 *, *::before, *::after {
@@ -315,54 +306,9 @@ main section:first-of-type a>img {
     width: 20px;
 }
 
-main section.locations-container {
-    background-image: url(./images/location-border.svg), url(./images/location-border.svg),
-        url(./images/location-border.svg), url(./images/location-border.svg);
-}
-
-main section.category.natural-landscapes {
-    background-image: url(./images/natural-border.svg), url(./images/natural-border.svg),
-        url(./images/natural-border.svg), url(./images/natural-border.svg);
-}
-
-main section.category.coast-and-beaches {
-    background-image: url(./images/beach-border.svg), url(./images/beach-border.svg),
-        url(./images/beach-border.svg), url(./images/beach-border.svg);
-}
-
-main section.category.lakes-and-waterfalls {
-    background-image: url(./images/waterfall-border.svg), url(./images/waterfall-border.svg),
-        url(./images/waterfall-border.svg), url(./images/waterfall-border.svg);
-}
-
-main section.category.culture-and-religion {
-    background-image: url(./images/culture-border.svg), url(./images/culture-border.svg),
-        url(./images/culture-border.svg), url(./images/culture-border.svg);
-}
-
-main section.category.wildlife-and-safari{
-    background-image: url(./images/wildlife-border.svg), url(./images/wildlife-border.svg),
-        url(./images/wildlife-border.svg), url(./images/wildlife-border.svg);
-}
-
-main section.category.heritage-sites{
-    background-image: url(./images/heritage-border.svg), url(./images/heritage-border.svg),
-        url(./images/heritage-border.svg), url(./images/heritage-border.svg);
-}
-
-main section.locations-container, .category.natural-landscapes,
-.category.coast-and-beaches, .category.lakes-and-waterfalls,
-.category.culture-and-religion, .category.wildlife-and-safari,
-.category.heritage-sites {
-    background-repeat: repeat-y;
-    background-size: 50%;
-    background-position: var(--background-border-position-mobile);
-}
-
-
 main section.locations-container, main section.category {
     padding: 2em 0;
-    background-color: var(--accent);
+    background: linear-gradient(180deg, rgba(60,22,117,1) 55%, rgba(99,31,200,1) 100%);
 }
 
 main section.locations-container p, main section.category p {
@@ -492,20 +438,6 @@ section:nth-of-type(4) a>img {
     filter: brightness(0.4);
 }
 
-@keyframes pan-image-short {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(2);
-    }
-}
-
-.card:hover img {
-    animation: pan-image-short 30s linear infinite;
-}
-
 .card h2 {
     position: relative;
     font-family: var(--ff-primary);
@@ -555,7 +487,7 @@ section:nth-of-type(4) a>img {
 }
 
 .category-container {
-    background-color: var(--accent);
+    background-color: rgb(99,31,200);
     display: grid;
     padding-inline: 0.5rem;
     gap: 0.5rem;
@@ -705,13 +637,6 @@ footer p>a:hover {
 
 @media screen and (min-width: 30em) {
 
-    main section.locations-container, .category.natural-landscapes,
-    .category.coast-and-beaches, .category.lakes-and-waterfalls,
-    .category.culture-and-religion, .category.wildlife-and-safari,
-    .category.heritage-sites {
-        background-position: var(--background-border-position-30em);
-    }
-
     footer section {
         width: 50%;
         margin-bottom: 30px;
@@ -860,13 +785,6 @@ footer p>a:hover {
         padding: 3rem 0 1rem 0;
     }
 
-    main section.locations-container, main section.category,
-    .category.natural-landscapes, .category.coast-and-beaches,
-    .category.lakes-and-waterfalls, .category.culture-and-religion,
-    .category.wildlife-and-safari, .category.heritage-sites {
-        background-position: var(--background-border-position-60em);
-    }
-
     main section.locations-container h2, main section.category h2 {
         font-size: 4em;
     }
@@ -995,13 +913,6 @@ footer p>a:hover {
 }
 
 @media screen and (min-width: 100em) {
-
-    main section.locations-container, .category.natural-landscapes,
-    .category.coast-and-beaches, .category.lakes-and-waterfalls,
-    .category.culture-and-religion, .category.wildlife-and-safari,
-    .category.heritage-sites {
-        background-position: var(--background-border-position-100em);
-    }
 
     main section.locations-container h2, main section.category h2 {
         font-size: 5em;
