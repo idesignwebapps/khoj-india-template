@@ -15,7 +15,7 @@ $the_query = new WP_Query($args);
 <main>
     <section class="bg-dark text-center category heritage-sites">
         <div class="container container--narrow">
-            <p>Khoj &sol; Heritage Sites</p>
+            <p>Locations &sol; Heritage Sites</p>
             <h2>Heritage Sites</h2>
         </div>
     </section>
