@@ -5,17 +5,22 @@
 			<section>
 				<h4>Khoj India</h4>
 				<ul>
-					<li><a href="#">about us</a></li>
-					<li><a href="#">our goal</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">locations</a></li>
+					<li><a href="#">featurette</a></li>
+					<li><a href="#">FAQ</a></li>
 					<li><a href="#">privacy policy</a></li>
 				</ul>
 			</section>
 			<section>
-				<h4>get help</h4>
+				<h4>Locations</h4>
 				<ul>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">crowdsourcing data</a></li>
-					<li><a href="#">apply for featurette</a></li>
+					<li><a href="#">natural landscapes</a></li>
+					<li><a href="#">coast and beaches</a></li>
+					<li><a href="#">culture and religion</a></li>
+					<li><a href="#">lakes and waterfalls</a></li>
+					<li><a href="#">wildlife and safari</a></li>
+					<li><a href="#">heritage sites</a></li>
 				</ul>
 			</section>
 			<section>
