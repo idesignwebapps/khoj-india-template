@@ -3,11 +3,11 @@
 	<div class="container">
 		<div id="footer-wrapper">
 			<section>
-				<h4>Khoj India</h4>
+				<h4>Khoj</h4>
 				<ul>
-					<li><a href="#">about</a></li>
-					<li><a href="#">locations</a></li>
-					<li><a href="#">featurette</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/about/">about</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/">locations</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/featurette/">featurette</a></li>
 					<li><a href="#">FAQ</a></li>
 					<li><a href="#">privacy policy</a></li>
 				</ul>
@@ -15,12 +15,12 @@
 			<section>
 				<h4>Locations</h4>
 				<ul>
-					<li><a href="#">natural landscapes</a></li>
-					<li><a href="#">coast and beaches</a></li>
-					<li><a href="#">culture and religion</a></li>
-					<li><a href="#">lakes and waterfalls</a></li>
-					<li><a href="#">wildlife and safari</a></li>
-					<li><a href="#">heritage sites</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/natural-landscapes-2/">natural landscapes</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/coast-and-beaches-2/">coast and beaches</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/culture-and-religion-2/">culture and religion</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/lakes-and-waterfalls-2/">lakes and waterfalls</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/wildlife-and-safari-2/">wildlife and safari</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/locations/heritage-sites-2/">heritage sites</a></li>
 				</ul>
 			</section>
 			<section>
