@@ -903,6 +903,10 @@ footer p>a:hover {
         width: calc(100% + 1.5em);
     }
 
+    .category-container {
+    	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	}
+
     .category-card {
         grid-row: span 2;
         grid-column: span 2;
@@ -963,5 +967,9 @@ footer p>a:hover {
     .card-content {
         transform: translateY(100%);
     }
+
+    .category-container {
+    	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+	}
 
 }
