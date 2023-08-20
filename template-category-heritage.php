@@ -6,7 +6,10 @@ Template Post Type: page
 ?>
 
 <?php
-$args = array('category_name' => 'heritage-sites');
+$args = array(
+    'category_name' => 'heritage-sites',
+    'posts_per_page' => -1
+);
 $the_query = new WP_Query($args);
 ?>
 
