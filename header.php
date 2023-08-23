@@ -8,10 +8,23 @@
 	<?php wp_head(); ?>
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MDCFMN317L"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'G-MDCFMN317L');
+</script>
+
 <body <?php body_class(); ?>>
 	<!-- header START -->
 	<header>
-		<h1><?php bloginfo('name'); ?></a></h1>
+		<h1><?php bloginfo('name'); ?></h1>
 		<div class="logo">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/khoj-logo-7.png" alt="khoj india logo">
 		</div>
