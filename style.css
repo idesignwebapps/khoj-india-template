@@ -559,7 +559,8 @@ dl {
 }
 
 dt {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin-top: 1rem;
     margin-bottom: 0.35rem;
 }
@@ -567,7 +568,8 @@ dt {
 iframe {
     width: 100%;
     height: 40rem;
-    border: 5px solid var(--light-pink);
+    border: 3px solid var(--light-pink);
+    margin-top: 0.8rem;
 }
 
 footer {
