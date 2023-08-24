@@ -7,6 +7,7 @@
 				<ul>
 					<li><a href="<?php echo get_home_url(); ?>/about/">about</a></li>
 					<li><a href="<?php echo get_home_url(); ?>/locations/">locations</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/interactive-map/">interactive map</a></li>
 					<li><a href="<?php echo get_home_url(); ?>/featurette/">featurette</a></li>
 					<li><a href="<?php echo get_home_url(); ?>/faq/">FAQ</a></li>
 					<li><a href="<?php echo get_home_url(); ?>/privacy-policy-2/">privacy policy</a></li>
