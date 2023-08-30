@@ -830,6 +830,7 @@ footer p>a:hover {
         color: var(--light-yellow);
         transition: all 300ms;
         padding-inline: 0.75rem;
+        font-weight: 500;
     }
 
     main section.locations-container h2, main section.category h2 {
