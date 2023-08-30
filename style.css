@@ -983,7 +983,7 @@ footer p>a:hover {
     }
 
     .card {
-        padding: 4rem 3rem;
+        padding: 2.25rem 3rem;
     }
 
     .card h2 {
@@ -1003,7 +1003,7 @@ footer p>a:hover {
     }
 
     .card-content {
-        transform: translateY(100%);
+        transform: translateY(90%);
     }
 
     .category-container {
