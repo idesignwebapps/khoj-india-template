@@ -10,7 +10,7 @@ Template Post Type: page
 <main>
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
-            <p>Khoj &sol; FAQ</p>
+            <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>/faq/">FAQ</a></p>
             <h2>FAQ</h2>
         </div>
     </section>

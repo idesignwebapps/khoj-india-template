@@ -7,17 +7,11 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
-<?php $hero_location = get_field('hero-section'); ?>
-
 <main>
 	<section class="bg-dark text-center locations-container">
 		<div class="container container--narrow">
-			<p>
-				<?php echo $hero_location['sub-heading']; ?>
-			</p>
-			<h2>
-				<?php echo $hero_location['heading']; ?>
-			</h2>
+			<p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>/locations/">Locations</a></p>
+			<h2>Locations</h2>
 		</div>
 	</section>
 	<div class="card-container">
@@ -30,8 +24,7 @@ Template Post Type: page
 		$grid_sixth_section = get_field('grid-section-6'); ?>
 
 		<div class="card">
-			<img src="<?php echo esc_url($grid_first_section['grid-image']['url']); ?>"
-				alt="<?php echo esc_attr($grid_first_section['grid-image']['alt']); ?>">
+			<img src="<?php echo esc_url($grid_first_section['grid-image']['url']); ?>" alt="<?php echo esc_attr($grid_first_section['grid-image']['alt']); ?>">
 			<div class="card-content">
 				<h2>
 					<?php echo $grid_first_section['grid-title']; ?>
@@ -43,8 +36,7 @@ Template Post Type: page
 			</div>
 		</div>
 		<div class="card">
-			<img src="<?php echo esc_url($grid_second_section['grid-image']['url']); ?>"
-				alt="<?php echo esc_attr($grid_second_section['grid-image']['alt']); ?>">
+			<img src="<?php echo esc_url($grid_second_section['grid-image']['url']); ?>" alt="<?php echo esc_attr($grid_second_section['grid-image']['alt']); ?>">
 			<div class="card-content">
 				<h2>
 					<?php echo $grid_second_section['grid-title']; ?>
@@ -56,8 +48,7 @@ Template Post Type: page
 			</div>
 		</div>
 		<div class="card">
-			<img src="<?php echo esc_url($grid_third_section['grid-image']['url']); ?>"
-				alt="<?php echo esc_attr($grid_third_section['grid-image']['alt']); ?>">
+			<img src="<?php echo esc_url($grid_third_section['grid-image']['url']); ?>" alt="<?php echo esc_attr($grid_third_section['grid-image']['alt']); ?>">
 			<div class="card-content">
 				<h2>
 					<?php echo $grid_third_section['grid-title']; ?>
@@ -69,8 +60,7 @@ Template Post Type: page
 			</div>
 		</div>
 		<div class="card">
-			<img src="<?php echo esc_url($grid_fourth_section['grid-image']['url']); ?>"
-				alt="<?php echo esc_attr($grid_fourth_section['grid-image']['alt']); ?>">
+			<img src="<?php echo esc_url($grid_fourth_section['grid-image']['url']); ?>" alt="<?php echo esc_attr($grid_fourth_section['grid-image']['alt']); ?>">
 			<div class="card-content">
 				<h2>
 					<?php echo $grid_fourth_section['grid-title']; ?>
@@ -82,8 +72,7 @@ Template Post Type: page
 			</div>
 		</div>
 		<div class="card">
-			<img src="<?php echo esc_url($grid_fifth_section['grid-image']['url']); ?>"
-				alt="<?php echo esc_attr($grid_fifth_section['grid-image']['alt']); ?>">
+			<img src="<?php echo esc_url($grid_fifth_section['grid-image']['url']); ?>" alt="<?php echo esc_attr($grid_fifth_section['grid-image']['alt']); ?>">
 			<div class="card-content">
 				<h2>
 					<?php echo $grid_fifth_section['grid-title']; ?>
@@ -95,8 +84,7 @@ Template Post Type: page
 			</div>
 		</div>
 		<div class="card">
-			<img src="<?php echo esc_url($grid_sixth_section['grid-image']['url']); ?>"
-				alt="<?php echo esc_attr($grid_sixth_section['grid-image']['alt']); ?>">
+			<img src="<?php echo esc_url($grid_sixth_section['grid-image']['url']); ?>" alt="<?php echo esc_attr($grid_sixth_section['grid-image']['alt']); ?>">
 			<div class="card-content">
 				<h2>
 					<?php echo $grid_sixth_section['grid-title']; ?>

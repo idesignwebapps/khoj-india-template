@@ -10,7 +10,7 @@ Template Post Type: page
 <main>
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
-            <p>Khoj &sol; Privacy Policy</p>
+            <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol; Privacy Policy</p>
             <h2>Privacy Policy</h2>
         </div>
     </section>

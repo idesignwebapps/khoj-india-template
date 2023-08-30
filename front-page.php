@@ -3,7 +3,7 @@
 <main>
 	<section class="bg-dark text-center locations-container">
 		<div class="container container--narrow">
-			<p>Khoj &sol; Home</p>
+			<p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol; Home</p>
 			<h2>Khoj</h2>
 		</div>
 	</section>

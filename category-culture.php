@@ -18,7 +18,7 @@ $the_query = new WP_Query($args);
 <main>
     <section class="bg-dark text-center category culture-and-religion">
         <div class="container container--narrow">
-            <p>Locations &sol; Culture And Religion</p>
+            <p><a href="<?php echo get_home_url(); ?>/locations/">Locations</a>&sol;<a href="<?php echo get_home_url(); ?>/locations/culture-and-religion-2/">Culture and Religion</a></p>
             <h2>Culture And Religion</h2>
         </div>
     </section>

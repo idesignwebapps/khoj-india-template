@@ -18,7 +18,7 @@ $the_query = new WP_Query($args);
 <main>
     <section class="bg-dark text-center category wildlife-and-safari">
         <div class="container container--narrow">
-            <p>Locations &sol; Wildlife And Safari</p>
+            <p><a href="<?php echo get_home_url(); ?>/locations/">Locations</a>&sol;<a href="<?php echo get_home_url(); ?>/locations/wildlife-and-safari-2/">Wildlife and Safari</a></p>
             <h2>Wildlife And Safari</h2>
         </div>
     </section>

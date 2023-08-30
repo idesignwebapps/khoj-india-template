@@ -12,7 +12,7 @@ Template Post Type: page
 <main>
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
-            <p>Khoj &sol; About</p>
+            <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>/about/">About</a></p>
             <h2>About</h2>
         </div>
     </section>

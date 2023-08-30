@@ -10,7 +10,7 @@ Template Post Type: page
 <main>
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
-            <p>Khoj &sol; Interactive Map</p>
+            <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>/interactive-map/">Interactive Map</a></p>
             <h2>Interactive Map</h2>
         </div>
     </section>
