@@ -27,10 +27,10 @@
 			<section>
 				<h4>follow us</h4>
 				<div class="social-links">
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt=""></a>
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/discord.png" alt=""></a>
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt=""></a>
-					<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt=""></a>
+					<a href="https://www.instagram.com/khoj.india.official/"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.png" alt="instagram logo"></a>
+					<a href="https://twitter.com/khoj_india"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="twitter logo"></a>
+					<a href="https://www.facebook.com/profile.php?id=61550666441683"><img src="<?php echo get_template_directory_uri(); ?>/images/threads.png" alt="threads logo"></a>
+					<a href="https://www.threads.net/@khoj.india.official"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="facebook logo"></a>
 				</div>
 			</section>
 		</div>

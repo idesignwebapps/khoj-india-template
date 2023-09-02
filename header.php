@@ -24,9 +24,9 @@
 	<!-- header START -->
 	<header>
 		<h1><?php bloginfo('name'); ?></h1>
-		<div class="logo">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/khoj-logo-7.png" alt="khoj india logo">
-		</div>
+		<a href="<?php echo get_home_url(); ?>" class="logo">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/khoj-wide-logo-white.png" alt="khoj india logo">
+		</a>
 		<!-- main nav -->
 		<input type="checkbox" id="nav-toggle" class="nav-toggle">
 		<nav class="sitenav" role="navigation">
