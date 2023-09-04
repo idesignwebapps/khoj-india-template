@@ -1,9 +1,14 @@
 <?php get_header(); ?>
 
 <!-- content START -->
-<main id="home">
+<main>
+	<section class="bg-dark text-center locations-container">
+		<div class="container container--narrow">
+			<p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>">Home</a></p>
+			<h2>Home</h2>
+		</div>
+	</section>
 	<?php the_content(); ?>
-	<a href="<?php echo esc_url(get_permalink(get_page_by_path('gurez-valley'))); ?>"></a>
 </main>
 </body>
 

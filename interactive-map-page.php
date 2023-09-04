@@ -15,7 +15,7 @@ Template Post Type: page
         </div>
     </section>
     <section class="bg-white about-section">
-        <div class="container">
+        <div class="container interactive-map">
             <p>Interactive Map marks all of the carefully curated locations at Khoj. Use the toggle on the top left of the map to view the locations or filter them by category.</p>
             <iframe src="https://www.google.com/maps/d/embed?mid=1uYTku_MAlGWQKTIJX2PvPOvk4NwFlvU&ehbc=2E312F&noprof=1"></iframe>
             <p>For best experience, use fullscreen option on the map. Use Google Maps website for better compatibility.</p>
