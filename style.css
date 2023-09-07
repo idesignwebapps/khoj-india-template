@@ -565,7 +565,7 @@ section:nth-of-type(4) a>img {
 
 .featurette-section {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 1.5em auto;
     display: grid;
     gap: 1rem;
 }
@@ -585,6 +585,7 @@ section:nth-of-type(4) a>img {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 2px solid var(--dark-pink);
 }
 
 .featurette-section .feature-card p {
