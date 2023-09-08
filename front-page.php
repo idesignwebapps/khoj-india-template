@@ -1,18 +1,61 @@
+<?php
+/*
+Template Name: Home Page
+Template Post Type: page
+*/
+?>
+
 <?php get_header(); ?>
 
-<main>
-	<section class="bg-dark text-center locations-container">
-		<div class="container container--narrow">
-			<p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol; Home</p>
-			<h2>Khoj</h2>
+<main id="home">
+	<?php $first_section = get_field('section-1');
+	$hero_image = get_field('hero-image');
+	$second_section = get_field('section-2');
+	$third_section = get_field('section-3');
+	$fourth_section = get_field('section-4');
+	$fifth_section = get_field('section-5');
+	$sixth_section = get_field('section-6'); ?>
+	<section>
+		<h2><?php echo $first_section['heading']; ?></h2>
+		<p><?php echo $first_section['sub-heading']; ?></p>
+		<a href="<?php echo esc_url($first_section['cta']); ?>">Get Started</a>
+	</section>
+	<img src="<?php echo esc_url($hero_image['url']); ?>" alt="<?php echo esc_attr($hero_image['alt']); ?>">
+	<section>
+		<h3><?php echo $second_section['heading']; ?></h3>
+	</section>
+	<section>
+		<figure><img src="<?php echo esc_url($third_section['image']['url']); ?>" alt="<?php echo esc_attr($third_section['image']['alt']); ?>">
+		</figure>
+		<div class="content-container">
+			<h3><?php echo $third_section['heading']; ?></h3>
+			<p><?php echo $third_section['sub-heading']; ?></p>
+			<a href="<?php echo esc_url($third_section['section-link']); ?>">Open Locations</a>
 		</div>
 	</section>
-	<section class="bg-white about-section">
-		<div class="container">
-			<p>India, with its rich cultural heritage, diverse landscapes, and historical marvels, is a treasure trove of stunning destinations waiting to be explored. This website, is a part of Major Project submission for M.A. Web Design and Content Planning by Adi, and is currently under developement.</p>
-			<p>This website that will take you on a virtual journey to some of the most beautiful hidden gem of locations across the country.</p>
-			<p>Meanwhile, have fun looking at the progess! If you have any questions or suggestions, feel free to reach out to me at <a href="mailto:aditya@khoj-india.com">aditya@khoj-india.com</a> or at <a href="https://www.linkedin.com/in/aditya-jain26" target="_blank">LinkedIn</a>. I would love to hear from you!</p>
+	<section>
+		<figure>
+			<img src="<?php echo esc_url($fourth_section['image']['url']); ?>" alt="<?php echo esc_attr($fourth_section['image']['alt']); ?>">
+		</figure>
+		<div class="content-container">
+			<h3><?php echo $fourth_section['heading']; ?></h3>
+			<p><?php echo $fourth_section['sub-heading']; ?></p>
+			<a href="<?php echo esc_url($fourth_section['section-link']); ?>">Open Featurette</a>
 		</div>
+	</section>
+	<section>
+		<figure>
+			<img src="<?php echo esc_url($fifth_section['image']['url']); ?>" alt="<?php echo esc_attr($fifth_section['image']['alt']); ?>">
+		</figure>
+		<div class="content-container">
+			<h3><?php echo $fifth_section['heading']; ?></h3>
+			<p><?php echo $fifth_section['sub-heading']; ?></p>
+			<a href="<?php echo esc_url($fifth_section['section-link']); ?>">Open Khoj Map</a>
+		</div>
+	</section>
+	<section>
+		<h3><?php echo $sixth_section['heading']; ?></h3>
+		<a href="<?php echo esc_url($sixth_section['community-link']); ?>">Join Khoj Community</a>
 	</section>
 </main>
 
