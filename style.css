@@ -1035,6 +1035,15 @@ footer p>a:hover {
         padding: 7rem 0;
     }
 
+    main#home section:nth-of-type(3),
+    main#home section:nth-of-type(5) {
+        flex-direction: row-reverse;
+    }
+
+    main#home section:nth-of-type(4) {
+        flex-direction: row;
+    }
+
     main section:first-of-type {
         min-height: 42rem;
         padding: 12rem 0 5rem 0;

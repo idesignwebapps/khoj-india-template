@@ -25,7 +25,7 @@ Template Post Type: page
 		<h3><?php echo $second_section['heading']; ?></h3>
 	</section>
 	<section>
-		<figure><img src="<?php echo esc_url($third_section['image']['url']); ?>" alt="<?php echo esc_attr($third_section['image']['alt']); ?>">
+		<figure><img src="<?php echo esc_url($third_section['section-image']['url']); ?>" alt="<?php echo esc_attr($third_section['section-image']['alt']); ?>">
 		</figure>
 		<div class="content-container">
 			<h3><?php echo $third_section['heading']; ?></h3>
@@ -35,7 +35,7 @@ Template Post Type: page
 	</section>
 	<section>
 		<figure>
-			<img src="<?php echo esc_url($fourth_section['image']['url']); ?>" alt="<?php echo esc_attr($fourth_section['image']['alt']); ?>">
+			<img src="<?php echo esc_url($fourth_section['section-image']['url']); ?>" alt="<?php echo esc_attr($fourth_section['section-image']['alt']); ?>">
 		</figure>
 		<div class="content-container">
 			<h3><?php echo $fourth_section['heading']; ?></h3>
