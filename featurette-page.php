@@ -29,7 +29,10 @@ Template Post Type: page
                                 $content_9 = get_field('content-9');
                                 $content_10 = get_field('content-10');
                                 $content_11 = get_field('content-11');
-                                $content_12 = get_field('content-12'); ?>
+                                $content_12 = get_field('content-12');
+                                $content_13 = get_field('content-13');
+                                $content_14 = get_field('content-14');
+                                $content_15 = get_field('content-15'); ?>
 
                                 <div class="feature-card"><iframe width="560" height="315" src="<?php echo esc_url($content_1['youtube-link']['url']); ?>" title="<?php echo $content_1['youtube-title']; ?>" allowfullscreen></iframe>
                                         <p><?php echo $content_1['youtube-title']; ?></p>
@@ -78,6 +81,18 @@ Template Post Type: page
                                 <div class="feature-card"><iframe width="560" height="315" src="<?php echo esc_url($content_12['youtube-link']['url']); ?>" title="<?php echo $content_12['youtube-title']; ?>" allowfullscreen></iframe>
                                         <p><?php echo $content_12['youtube-title']; ?></p>
                                         <p><?php echo $content_12['youtube-creator']; ?></p>
+                                </div>
+                                <div class="feature-card"><iframe width="560" height="315" src="<?php echo esc_url($content_13['youtube-link']['url']); ?>" title="<?php echo $content_13['youtube-title']; ?>" allowfullscreen></iframe>
+                                        <p><?php echo $content_13['youtube-title']; ?></p>
+                                        <p><?php echo $content_13['youtube-creator']; ?></p>
+                                </div>
+                                <div class="feature-card"><iframe width="560" height="315" src="<?php echo esc_url($content_14['youtube-link']['url']); ?>" title="<?php echo $content_14['youtube-title']; ?>" allowfullscreen></iframe>
+                                        <p><?php echo $content_14['youtube-title']; ?></p>
+                                        <p><?php echo $content_14['youtube-creator']; ?></p>
+                                </div>
+                                <div class="feature-card"><iframe width="560" height="315" src="<?php echo esc_url($content_15['youtube-link']['url']); ?>" title="<?php echo $content_15['youtube-title']; ?>" allowfullscreen></iframe>
+                                        <p><?php echo $content_15['youtube-title']; ?></p>
+                                        <p><?php echo $content_15['youtube-creator']; ?></p>
                                 </div>
                         </div>
                 </div>
