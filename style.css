@@ -2,7 +2,7 @@
 Theme Name: Khoj India 2023
 Theme URI: https://www.linkedin.com/in/aditya-jain26
 Description: Theme Created for Khoj Website
-Version: 1.5.0 Stable
+Version: 1.5.1 Stable
 Author: Adi Jain
 Author URI: https://www.linkedin.com/in/aditya-jain26
 */
@@ -411,6 +411,7 @@ main#home {
 main#home img {
     display: block;
     max-width: 100%;
+    border-radius: 0;
 }
 
 main#home section:nth-of-type(1) {
@@ -448,6 +449,7 @@ main#home section:nth-of-type(1) a {
     text-decoration: none;
     color: var(--white);
     transition: all 300ms;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     cursor: pointer;
 }
 
