@@ -20,7 +20,7 @@ Template Post Type: page
             <p>Thank you for using Khoj! This Privacy Policy outlines how we collect and utilize information through the use of Google Analytics on our website. Your privacy is of utmost importance to us, and we want to ensure that you are aware of how data is handled when you interact with Khoj.</p>
             <dl>
                 <dt>1. Information Collected by Google Analytics:</dt>
-                <dd>We use Google Analytics, a web analytics service provided by Google, to gather information about how users interact with our website. Google Analytics collects data such as your IP address, browser type, device type, pages visited, time spent on pages, and other relevant browsing information.</dd>
+                <dd>We use Google Analytics, a web analytics service provided by Google, to gather information about how users interact with our website. Google Analytics collects data such as your device type, pages visited, time spent on pages, and other relevant browsing information.</dd>
                 <dt>2. Purpose of Data Collection:</dt>
                 <dd>The data collected through Google Analytics is used to analyze website traffic, user behavior, and engagement. This helps us understand how visitors use Khoj and enables us to improve user experience and content quality.</dd>
                 <dt>3. Cookies and Data Retention:</dt>
