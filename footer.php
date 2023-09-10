@@ -39,8 +39,6 @@
 		&copy; 2022-2023</p>
 </footer>
 <!-- footer END -->
-</div>
-<!-- wrapper END -->
 </body>
 
 </html>
