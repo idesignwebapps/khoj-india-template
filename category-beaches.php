@@ -8,7 +8,9 @@ Template Post Type: page
 <?php
 $args = array(
     'category_name' => 'coast-and-beaches',
-    'posts_per_page' => -1
+    'posts_per_page' => -1,
+    'orderby' => 'date title',
+    'order' => 'ASC'
 );
 $the_query = new WP_Query($args);
 ?>
