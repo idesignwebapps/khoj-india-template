@@ -2,7 +2,7 @@
 Theme Name: Khoj India 2023
 Theme URI: https://www.linkedin.com/in/aditya-jain26
 Description: Theme Created for Khoj Website
-Version: 1.5.3 Stable
+Version: 1.5.4 Stable
 Author: Adi Jain
 Author URI: https://www.linkedin.com/in/aditya-jain26
 */
@@ -647,6 +647,8 @@ main#home section:nth-of-type(6) a img {
 }
 
 .card {
+    display: block;
+    text-decoration: none;
     color: var(--white);
     padding: 2rem 1.5rem;
     max-width: 100ch;
@@ -694,7 +696,8 @@ main#home section:nth-of-type(6) a img {
     font-size: 1.1em;
 }
 
-.card a {
+.card button {
+    all: inherit;
     cursor: pointer;
     display: block;
     text-decoration: none;
@@ -707,8 +710,8 @@ main#home section:nth-of-type(6) a img {
     border-radius: 0.25em;
 }
 
-.card a:hover,
-.card a:focus {
+.card button:hover,
+.card button:focus {
     background-color: var(--white);
     color: var(--accent);
 }
@@ -1165,7 +1168,7 @@ footer p>a:hover {
         max-width: 90ch;
     }
 
-    .card a {
+    .card button {
         font-size: 1em;
     }
 
@@ -1193,12 +1196,12 @@ footer p>a:hover {
     .card:hover .card-content>*:not(h2),
     .card:focus-within .card-content>*:not(h2) {
         opacity: 1;
-        transition-delay: 400ms;
+        transition-delay: 600ms;
     }
 
     .card-content {
         transform: translateY(80%);
-        transition: transform 200ms ease;
+        transition: transform 400ms ease;
     }
 
     .card h2:after {
@@ -1279,7 +1282,7 @@ footer p>a:hover {
         font-size: 1.75em;
     }
 
-    .card a {
+    .card button {
         font-size: 1.75em;
     }
 
