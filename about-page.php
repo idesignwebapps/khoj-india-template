@@ -10,13 +10,16 @@ Template Post Type: page
 <?php $about_image = get_field('about-image');
 $g20_logo = get_field('g20-logo'); ?>
 
+<!-- main START -->
 <main>
+    <!-- page heading -->
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
             <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>/about/">About</a></p>
             <h2>About</h2>
         </div>
     </section>
+    <!-- content -->
     <section class="bg-white about-section">
         <div class="container">
             <img src="<?php echo esc_url($about_image['url']); ?>" alt="<?php echo esc_attr($about_image['alt']); ?>">
@@ -28,6 +31,8 @@ $g20_logo = get_field('g20-logo'); ?>
             <p><?php echo esc_html(get_field('about-content-5')); ?></p>
         </div>
     </section>
+    <!-- /content -->
 </main>
+<!-- main END -->
 
 <?php get_footer(); ?>
