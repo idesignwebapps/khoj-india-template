@@ -1,7 +1,5 @@
 <?php
-# ------------------------------------------
-# ADD SCRIPTS
-# ------------------------------------------
+# scripts
 function theming_scripts()
 {
     // CSS
@@ -15,7 +13,7 @@ function theming_scripts()
 
 add_action('wp_enqueue_scripts', 'theming_scripts');
 
-# remove smilies/emoticon horridness
+# removing smilies/emoticons
 function cb_remove_smileys($bool)
 {
     return false;
@@ -30,7 +28,7 @@ function remove_thumbnail_dimensions( $html ) {
 add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
 add_filter( 'image_send_to_editor', 'remove_thumbnail_dimensions', 10 );
 
-# REGISTER SITE MENUS
+# registering site menus
 function register_custom_menu()
 {
     register_nav_menu('primary', 'Primary Menu');

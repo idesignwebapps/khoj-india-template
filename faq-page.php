@@ -7,13 +7,16 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
+<!-- main START -->
 <main>
+    <!-- page heading -->
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
             <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol;<a href="<?php echo get_home_url(); ?>/faq/">FAQ</a></p>
             <h2>FAQ</h2>
         </div>
     </section>
+    <!-- content -->
     <section class="bg-white about-section">
         <div class="container">
             <p>Welcome to the FAQ page of Khoj! We're here to address common questions you might have about our website, its purpose, features, and how to make the most of your experience.</p>
@@ -38,6 +41,8 @@ Template Post Type: page
             <p>If you have any other questions or need further assistance, don't hesitate to contact us. Thank you for being a part of the Khoj journey!</p>
         </div>
     </section>
+    <!-- /content -->
 </main>
+<!-- main END -->
 
 <?php get_footer(); ?>
