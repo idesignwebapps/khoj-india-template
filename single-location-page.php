@@ -9,10 +9,12 @@ Template Post Type: post
 
 <?php $hero = get_field('hero-section'); ?>
 
+<!-- main START -->
 <main>
+	<!-- post heading -->
 	<section class="bg-dark text-center">
-		<img src="<?php echo esc_url($hero['featured-image']['url']); ?>"
-			alt="<?php echo esc_attr($hero['featured-image']['alt']); ?>">
+		<!-- hero image -->
+		<img src="<?php echo esc_url($hero['featured-image']['url']); ?>" alt="<?php echo esc_attr($hero['featured-image']['alt']); ?>">
 		<div class="container container--narrow">
 			<p>
 				<?php echo $hero['location-state']; ?>
@@ -20,13 +22,12 @@ Template Post Type: post
 			<h2>
 				<?php echo $hero['location-title']; ?>
 			</h2>
-			<a href="#travel">Get Me There <img src="<?php echo get_template_directory_uri(); ?>/images/location.png"
-					alt=""></a>
+			<a href="#travel">Get Me There <img src="<?php echo get_template_directory_uri(); ?>/images/location.png" alt=""></a>
 		</div>
 	</section>
 
 	<?php $first_section = get_field('section-1'); ?>
-
+	<!-- first section START -->
 	<section class="bg-primary">
 		<div class="container">
 			<div class="split">
@@ -42,8 +43,7 @@ Template Post Type: post
 					</p>
 				</div>
 				<div>
-					<img src="<?php echo esc_url($first_section['image-1']['url']); ?>"
-						alt="<?php echo esc_attr($first_section['image-1']['alt']); ?>">
+					<img src="<?php echo esc_url($first_section['image-1']['url']); ?>" alt="<?php echo esc_attr($first_section['image-1']['alt']); ?>">
 					<p>
 						<?php echo $first_section['first-content-3']; ?>
 					</p>
@@ -54,9 +54,11 @@ Template Post Type: post
 			</div>
 		</div>
 	</section>
+	<!-- first section END -->
 
 	<?php $second_section = get_field('section-2'); ?>
 
+	<!-- second section START -->
 	<section class="bg-white">
 		<div class="container">
 			<h2 class="text-center">
@@ -69,8 +71,7 @@ Template Post Type: post
 					</p>
 				</div>
 				<div>
-					<img src="<?php echo esc_url($second_section['image-2']['url']); ?>"
-						alt="<?php echo esc_attr($second_section['image-2']['alt']); ?>">
+					<img src="<?php echo esc_url($second_section['image-2']['url']); ?>" alt="<?php echo esc_attr($second_section['image-2']['alt']); ?>">
 				</div>
 				<div>
 					<p>
@@ -80,12 +81,15 @@ Template Post Type: post
 			</div>
 		</div>
 	</section>
+	<!-- second section END -->
 
 	<?php $third_section = get_field('section-3'); ?>
 
+	<!-- third section START -->
 	<section class="bg-primary" id="travel">
 		<div class="container">
 			<div class="split">
+				<!-- getting there information -->
 				<div>
 					<h2>Getting There</h2>
 					<p><span class="material-symbols-outlined">location_city</span>
@@ -101,19 +105,20 @@ Template Post Type: post
 						<?php echo $third_section['nearest-train-station']; ?>
 					</p>
 				</div>
+				<!-- google maps link -->
 				<div>
-					<img src="<?php echo esc_url($third_section['image-3']['url']); ?>"
-						alt="<?php echo esc_attr($third_section['image-3']['alt']); ?>">
+					<img src="<?php echo esc_url($third_section['image-3']['url']); ?>" alt="<?php echo esc_attr($third_section['image-3']['alt']); ?>">
 					<p>
 						<?php echo $third_section['get-to-prompt']; ?>
 					</p>
 					<a href="<?php echo esc_url($third_section['google-maps-link']); ?>" target="_blank">Get Me
-						There<img src="<?php echo get_template_directory_uri(); ?>/images/google-maps.png"
-							alt=""></a>
+						There<img src="<?php echo get_template_directory_uri(); ?>/images/google-maps.png" alt=""></a>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- third section END -->
 </main>
+<!-- main END -->
 
 <?php get_footer(); ?>

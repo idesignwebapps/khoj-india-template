@@ -7,13 +7,16 @@ Template Post Type: page
 
 <?php get_header(); ?>
 
+<!-- main START -->
 <main>
+    <!-- page heading -->
     <section class="bg-dark text-center locations-container">
         <div class="container container--narrow">
             <p><a href="<?php echo get_home_url(); ?>">Khoj</a>&sol; Privacy Policy</p>
             <h2>Privacy Policy</h2>
         </div>
     </section>
+    <!-- content -->
     <section class="bg-white about-section">
         <div class="container">
             <p>Effective Date: 23 August 2023</p>
@@ -39,6 +42,8 @@ Template Post Type: page
             <p>By using Khoj, you acknowledge that you have read, understood, and agreed to be bound by this Privacy Policy in relation to the collection and use of data through Google Analytics. Thank you for trusting us with your information, and we are committed to ensuring a transparent and secure browsing experience on our website.</p>
         </div>
     </section>
+    <!-- /content -->
 </main>
+<!-- main END -->
 
 <?php get_footer(); ?>
