@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-
+<!-- head START -->
 <head>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MDCFMN317L"></script>
@@ -19,7 +19,8 @@
 	<title><?php the_title(); ?></title>
 	<?php wp_head(); ?>
 </head>
-
+<!-- head END -->
+<!-- body START -->
 <body <?php body_class(); ?>>
 	<!-- header START -->
 	<header>
@@ -27,7 +28,7 @@
 		<a href="<?php echo get_home_url(); ?>" class="logo">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/khoj-logos/khoj-full-logo-primary.png" alt="khoj india logo">
 		</a>
-		<!-- main nav -->
+		<!-- nav START -->
 		<input type="checkbox" id="nav-toggle" class="nav-toggle">
 		<nav class="sitenav" role="navigation">
 			<?php wp_nav_menu(array(
@@ -36,4 +37,6 @@
 			)); ?>
 		</nav>
 		<label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+		<!-- nav END -->
 	</header>
+	<!-- header END -->

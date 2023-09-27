@@ -4,6 +4,7 @@
 		<div id="footer-wrapper">
 			<section>
 				<h4>Khoj</h4>
+				<!-- khoj site map -->
 				<ul>
 					<li><a href="<?php echo get_home_url(); ?>/about/">about</a></li>
 					<li><a href="<?php echo get_home_url(); ?>/locations/">locations</a></li>
@@ -15,6 +16,7 @@
 			</section>
 			<section>
 				<h4>Locations</h4>
+				<!-- locations site map -->
 				<ul>
 					<li><a href="<?php echo get_home_url(); ?>/locations/natural-landscapes-2/">natural landscapes</a></li>
 					<li><a href="<?php echo get_home_url(); ?>/locations/coast-and-beaches-2/">coast and beaches</a></li>
@@ -26,6 +28,7 @@
 			</section>
 			<section>
 				<h4>follow us</h4>
+				<!-- social media links -->
 				<div class="social-links">
 					<a href="https://www.instagram.com/khoj.india.official/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-logos/instagram.png" alt="instagram logo"></a>
 					<a href="https://twitter.com/khoj_india" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/social-logos/twitter.png" alt="twitter logo"></a>
@@ -40,5 +43,5 @@
 </footer>
 <!-- footer END -->
 </body>
-
+<!-- body END -->
 </html>

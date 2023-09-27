@@ -1,12 +1,15 @@
 <?php get_header(); ?>
 
+<!-- main START -->
 <main>
+	<!-- page heading -->
 	<section class="bg-dark text-center locations-container">
 		<div class="container container--narrow">
 			<p>Khoj &sol; Error</p>
 			<h2>404 Error</h2>
 		</div>
 	</section>
+	<!-- 404 error message -->
 	<section class="bg-white about-section">
 		<div class="container">
 			<h2>404 Error</h2>
@@ -16,5 +19,6 @@
 		</div>
 	</section>
 </main>
+<!-- main END -->
 
 <?php get_footer(); ?>
