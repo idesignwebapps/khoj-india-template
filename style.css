@@ -64,7 +64,32 @@ table {
 
 /* End of Meyer's Reset */
 
-/* Start of Styling */
+/* Start of Khoj Theme Styling */
+
+/* Table of Content 
+   1. Global Custom Properties
+   2. General
+   3. Header
+   4. Navigation
+   5. Layout
+   6. Animations
+   7. Landing Page
+   8. Utility Classes
+   9. Category Cards
+   10. Location Categories
+   11. Featurette
+   12. About, Privacy Policy, FAQ Pages
+   13. Interactive Map
+   14. Footer
+
+   Responsiveness
+   1. Medium Screens
+   2. Large Screens
+   3. X-Large Screens
+   4. XX-Large Screens
+*/
+
+/* Global Custom Properties START */
 
 :root {
     --yellow: #ffc500;
@@ -80,6 +105,10 @@ table {
     --ff-accent: "League Gothic", sans-serif;
 }
 
+/* Global Custom Properties END */
+
+/* General Styling START */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -88,6 +117,10 @@ body {
     background: var(--light-pink);
     font-family: var(--ff-primary);
 }
+
+/* General Styling END */
+
+/* Header Styling START */
 
 header {
     padding-block: 1em;
@@ -117,6 +150,8 @@ h1 {
     right: 1em;
     max-width: 125px;
 }
+
+/* Navigation Styling START */
 
 .nav-toggle {
     position: absolute !important;
@@ -216,6 +251,8 @@ nav a span {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+/* Navigation Styling END */
+
 h2 {
     font-family: var(--ff-accent);
     font-size: 3rem;
@@ -233,6 +270,10 @@ h2, h3 {
     line-height: 1;
     margin-bottom: 0.8rem;
 }
+
+/* Header Styling END */
+
+/* Layout Styling START */
 
 main p {
     font-size: 1.2rem;
@@ -263,6 +304,8 @@ main section:first-of-type {
     overflow: hidden;
     isolation: isolate;
 }
+
+/* Animations Styling */
 
 @keyframes pan-image {
     from {
@@ -400,6 +443,10 @@ section:nth-of-type(4) a>img {
     margin-inline: auto;
     width: min(90%, 70.5rem);
 }
+
+/* Layout Styling END */
+
+/* Landing Page Styling START */
 
 main#home {
     background-color: var(--accent);
@@ -605,6 +652,10 @@ main#home section:nth-of-type(6) a img {
     width: 20px;
 }
 
+/* Landing Page Styling END */
+
+/* Utility Classes Styling START */
+
 .split {
     display: flex;
     flex-direction: column;
@@ -638,6 +689,10 @@ main#home section:nth-of-type(6) a img {
 .bg-dark h2 {
     color: var(--yellow);
 }
+
+/* Utility Classes Styling END */
+
+/* Category Cards Styling START */
 
 .card {
     display: block;
@@ -709,6 +764,10 @@ main#home section:nth-of-type(6) a img {
     color: var(--accent);
 }
 
+/* Category Cards Styling START */
+
+/* Location Categories Styling START */
+
 .category-container {
     background-color: rgb(99, 31, 200);
     display: grid;
@@ -772,6 +831,10 @@ main#home section:nth-of-type(6) a img {
     width: min(90%, 70.5rem);
 }
 
+/* Location Categories Styling END */
+
+/* Featurette Styling START */
+
 .featurette-section {
     max-width: 1280px;
     margin: 1.5em auto;
@@ -818,6 +881,10 @@ main#home section:nth-of-type(6) a img {
     display: none;
 }
 
+/* Featurette Styling END */
+
+/* About, Privacy Policy, FAQ Pages Styling */
+
 dl {
     margin-block: 1.1rem;
 }
@@ -829,12 +896,16 @@ dt {
     margin-bottom: 0.35rem;
 }
 
+/* Interactive Map Page Styling */
+
 .interactive-map iframe {
     width: 100%;
     height: 40rem;
     border: 3px solid var(--light-pink);
     margin-top: 1.5rem;
 }
+
+/* Footer Styling START */
 
 footer {
     background-image: url(./images/floral-yellow.svg);
@@ -927,6 +998,10 @@ footer p>a:hover {
     color: var(--white);
 }
 
+/* Footer Styling END */
+
+/* Medium Screens Responsive Styling START */
+
 @media screen and (min-width: 30em) {
 
     .interactive-map iframe {
@@ -943,6 +1018,9 @@ footer p>a:hover {
     }
 }
 
+/* Medium Screens Responsive Styling END */
+
+/* Large Screens Responsive Styling START */
 
 @media screen and (min-width: 60em) {
     .nav-toggle-label {
@@ -1251,6 +1329,10 @@ footer p>a:hover {
 
 }
 
+/* Large Screens Responsive Styling END */
+
+/* X-Large Screens Responsive Styling START */
+
 @media screen and (min-width: 70em) {
 
     main#home section:nth-of-type(3),
@@ -1262,6 +1344,10 @@ footer p>a:hover {
         flex-direction: row;
     }
 }
+
+/* X-Large Screens Responsive Styling END */
+
+/* XX-Large Screens Responsive Styling START */
 
 @media screen and (min-width: 100em) {
 
@@ -1302,3 +1388,7 @@ footer p>a:hover {
     }
 
 }
+
+/* XX-Large Screens Responsive Styling END */
+
+/* End of Khoj Theme Styling */
