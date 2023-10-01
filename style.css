@@ -101,8 +101,8 @@ table {
     --black: #000000;
     --dark-gray: #222c2a;
 
-    --ff-primary: "Overpass", sans-serif;
-    --ff-accent: "League Gothic", sans-serif;
+    --ff-primary: "Overpass", "Tahoma", "Verdana", "Gill Sans", "Trebuchet MS", sans-serif;
+    --ff-accent: "League Gothic", "Overpass", "Impact", "Tahoma", "Verdana", "Gill Sans", sans-serif;
 }
 
 /* Global Custom Properties END */
